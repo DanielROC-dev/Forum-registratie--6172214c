@@ -37,13 +37,5 @@
                 <input type="submit" name="button" value="submit" id="sub">
             </div>
         </form>
-
-        <?php
-            if(isset($_POST["button"]) && isset($_POST["number"]) && isset($_POST["name"]) && isset($_POST["mail"])) { 
-                $_SESSION["mail"] = $_POST["mail"];
-                $_SESSION["username"] = $_POST["name"];
-                $_SESSION["age"] = $_POST["number"];
-            }
-        ?>
     </body>
 </html>

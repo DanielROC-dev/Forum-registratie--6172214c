@@ -10,9 +10,9 @@
 <body>
     <h1>
         <?php
-            echo "mail bruh: " . $_SESSION["mail"];
-            echo "<br> name uwu: " . $_SESSION["username"];
-            echo "<br> age owo: " . $_SESSION["age"];
+            echo "mail bruh: " . $_POST["mail"];
+            echo "<br> name uwu: " . $_POST["name"];
+            echo "<br> age owo: " . $_POST["number"];
         ?>
     </h1>
 </body>
